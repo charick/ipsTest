@@ -13,7 +13,8 @@
       &nbsp;
      <a href="jsp/userInfo.jsp">用户信息</a>&nbsp;&nbsp;&nbsp;
      <img src="img/other/cart.gif"/>
-     <a href="jsp/product.jsp">上传产品</a>
+     <a href="jsp/product.jsp">  上传产品</a>
+     <a href="/IPStest/getSenderOrder">  发货列表</a>
     </td>
   </tr>
 </table>

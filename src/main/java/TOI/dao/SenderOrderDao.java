@@ -31,9 +31,11 @@ public class SenderOrderDao implements ParameterizedRowMapper<SenderOrder> {
 	public SenderOrder mapRow(ResultSet rs, int i) throws SQLException {
 		SenderOrder bean = new SenderOrder();
 		bean.setId(rs.getInt("id"));
-		bean.setCtime(rs.getTimestamp("ctime"));
+		bean.setTbOrderId(rs.getString("tid"));
+		bean.setCtime(rs.getTimestamp("pay_time"));
+		bean.setNote(rs.getString("trade_memo"));
 		bean.setExpressNum(rs.getString("express_number"));
-		bean.setRevTele(rs.getString("revTele"));
+		bean.setRevTele(rs.getString("receiver_phone"));
 		return bean;
 	}
 
@@ -47,7 +49,7 @@ public class SenderOrderDao implements ParameterizedRowMapper<SenderOrder> {
 	}
 
 	public int insert(final SenderOrder info) {
-		final String sql = "insert into user_sendorder (tb_orderId,status,ctime,price) values (?, ?,?, ?)";
+		final String sql = "insert into user_sendorder (tid,status,pay_time,price) values (?, ?,?, ?)";
 		KeyHolder keyHolder = new GeneratedKeyHolder();
 		ikeaTemplate.update(new PreparedStatementCreator() {
 			public PreparedStatement createPreparedStatement(Connection connection) throws SQLException {

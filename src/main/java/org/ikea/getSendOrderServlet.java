@@ -1,6 +1,7 @@
 package org.ikea;
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
@@ -10,15 +11,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import TOI.dao.DaoFactory;
+import TOI.model.SenderOrder;
 
 public class getSendOrderServlet extends HttpServlet {
-	private static String addItemPage = "/jsp/senderOrderList.jsp";
+	private static String addItemPage = "/jsp/sendOrder.jsp";
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		ServletContext context = getServletContext();
 
 		//读取senderOrder
-			DaoFactory.getSenderOrderDao().getSenderOrderByStatus(1);
+		List<SenderOrder> orders=DaoFactory.getSenderOrderDao().getSenderOrderByStatus(1);
+		request.setAttribute("orders", orders);
 		
 		System.out.println("Redirecting to" + addItemPage);
 		RequestDispatcher dispatcher = context.getRequestDispatcher(addItemPage);

@@ -19,7 +19,7 @@
 		  <tr align="center">
 		    <td>
 		      <table>
-		        <form action="/IPS/AddItem2TBServlet" method="post" name="mfmodify">
+		        <form action="/IPStest/AddItem2TBServlet" method="post" name="mfmodify">
 		          <tr align="center">
 		            <td><br/><br/>²úÆ·±àºÅ:</td>
 		            <td align="left"><input name="productCode" value=""/></td>

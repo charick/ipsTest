@@ -44,6 +44,15 @@
         <url-pattern>/AddItem2TBServlet</url-pattern>
     </servlet-mapping>
     
+     <servlet>
+        <servlet-name>getSenderOrder</servlet-name>
+        <servlet-class>org.ikea.getSendOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getSenderOrder</servlet-name>
+        <url-pattern>/getSenderOrder</url-pattern>
+    </servlet-mapping>
+    
     
     <welcome-file-list>	
 	<welcome-file>

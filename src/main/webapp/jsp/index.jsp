@@ -3,7 +3,7 @@
 
 <html>
   <head>
-    <title>Ȥ���˼Ҵ�����</title>
+    <title>趣活宜家代购联盟</title>
   </head>
   <link href="css/generalstyle.css" type="text/css" rel="stylesheet">
   <body>
@@ -19,15 +19,15 @@
              if(session.getAttribute("user")==null)
              {
           %>
-              		��������Ȩ���룡��
+              		
           <% 
              }
              else
              {
              	out.println("<table border='0' bgcolor='#FFF0E1' width='80%' height='150'>");
              	out.println("<tr align='center' height='80'><td>");
-             	out.println(session.getAttribute("userName")+"���,<br/>��ӭ����!!!");
-             	out.println("<a href='CartServlet?action=logout'>[ע��]</a>");
+             	out.println(session.getAttribute("userName")+"你好<br/>!!!");
+             	out.println("<a href='CartServlet?action=logout'>[注销]</a>");
              	out.println("</td></tr></table>");
              }
             %>
