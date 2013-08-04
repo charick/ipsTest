@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: taobao-sdk-java-notify:taobao-sdk-java-notify:20130617">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/taobao-sdk-java-notify-20130617.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
