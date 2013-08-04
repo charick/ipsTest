@@ -148,7 +148,7 @@
 		
 	</dependencies>
 	<build>
-		<finalName>IPS</finalName>
+		<finalName>IPStest</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -208,9 +208,6 @@
 			<resource>
 				<directory>${basedir}/src/main/resources</directory>
 			</resource>
-            <resource>
-                <directory>${basedir}/src/main/webapp</directory>
-            </resource>
 		</resources>
 	</build>
 </project>
