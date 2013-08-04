@@ -1,3 +1,0 @@
-﻿源码的编码格式是gbk
-使用Eclipse或者myEclipse的时间在workspace选项下
-把text file encoding的编码格式设置成gbk然后可以看到中文！
