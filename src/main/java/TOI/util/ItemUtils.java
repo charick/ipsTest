@@ -229,6 +229,7 @@ public class ItemUtils
         }
         updateSingleValue(item.pid, "PicUrlAtTaobao", picUrlsAtTB.toString());
 
+
     }
 
     public static boolean updateSingleValue(String id, String key, String value)

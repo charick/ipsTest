@@ -29,12 +29,7 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		
-		<dependency>
-			<groupId>org.zwk.jsch</groupId>
-			<artifactId>jsch</artifactId>
-			<version>1.0</version>
-		</dependency>
+
 
 		<dependency>
 			<groupId>javax</groupId>
