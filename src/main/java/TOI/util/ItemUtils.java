@@ -138,7 +138,7 @@ public class ItemUtils
                 String picUrlAtTaobao = rs.getString("picUrlAtTaobao");
                 if(StringUtils.isNotBlank(picUrlAtTaobao))
                 Collections.addAll(item.picUrlsAtTaobao, picUrlAtTaobao.split(","));
-                item.setTypeAndColorCode(rs.getString("type"));
+                item.setTypeAndColorCode(rs.getString("type0"));
             }
         } catch (SQLException e) {
             System.out.println(new StringBuilder().append("=========SQLException==========").append(e.getMessage()).toString());
@@ -228,6 +228,7 @@ public class ItemUtils
                 picUrlsAtTB.append(",");
         }
         updateSingleValue(item.pid, "PicUrlAtTaobao", picUrlsAtTB.toString());
+
 
     }
 
