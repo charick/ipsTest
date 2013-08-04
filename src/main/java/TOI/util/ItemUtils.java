@@ -138,7 +138,7 @@ public class ItemUtils
                 String picUrlAtTaobao = rs.getString("picUrlAtTaobao");
                 if(StringUtils.isNotBlank(picUrlAtTaobao))
                 Collections.addAll(item.picUrlsAtTaobao, picUrlAtTaobao.split(","));
-                item.setTypeAndColorCode(rs.getString("type0"));
+                item.setTypeAndColorCode(rs.getString("type"));
             }
         } catch (SQLException e) {
             System.out.println(new StringBuilder().append("=========SQLException==========").append(e.getMessage()).toString());

@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="IPS" />
+        <module name="ipsTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="IPS" target="1.6" />
+      <module name="ipsTest" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
