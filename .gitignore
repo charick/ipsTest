@@ -4,8 +4,7 @@
 /target
 /target/
 /.idea/
-/.gradle/
-/serviceIntance*/
+/.idea
 /build/
 /log/
 /bin/
