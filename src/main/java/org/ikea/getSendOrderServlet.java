@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import TOI.dao.DaoFactory;
+
 public class getSendOrderServlet extends HttpServlet {
 	private static String addItemPage = "/jsp/senderOrderList.jsp";
 
@@ -16,6 +18,7 @@ public class getSendOrderServlet extends HttpServlet {
 		ServletContext context = getServletContext();
 
 		//读取senderOrder
+			DaoFactory.getSenderOrderDao().getSenderOrderByStatus(1);
 		
 		System.out.println("Redirecting to" + addItemPage);
 		RequestDispatcher dispatcher = context.getRequestDispatcher(addItemPage);
