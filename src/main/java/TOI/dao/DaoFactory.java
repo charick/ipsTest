@@ -19,6 +19,8 @@ public class DaoFactory {
 	}
 
 	public static SenderOrderDao getSenderOrderDao() {
-		return (SenderOrderDao) bf.getBean("senderOrderDao");
+        return (SenderOrderDao) bf.getBean("senderOrderDao");
 	}
+
+
 }
