@@ -401,4 +401,5 @@ public class TaobaoUtils
             return this.name + "#######" + this.cid;
         }
     }
+
 }

@@ -46,7 +46,7 @@
     
      <servlet>
         <servlet-name>getSenderOrder</servlet-name>
-        <servlet-class>org.ikea.getSendOrderServlet</servlet-class>
+        <servlet-class>org.ikea.getTraderServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>getSenderOrder</servlet-name>

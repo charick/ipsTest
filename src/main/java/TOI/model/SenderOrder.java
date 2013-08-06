@@ -4,14 +4,44 @@ import java.util.Date;
 
 public class SenderOrder {
 	int id;
-
-	// taobao info
-	String tbOrderId;
-	String note;
-	double price;
-
-	Date ctime;
+	String tid;
+	Date payTime;
 	Date mtime;
+    String buyerNIck;
+	String senderName;
+	String senderTele;
+	String senderAdress;
+	String receiverName;
+	String recerverState;
+	String receiverCity;
+	String receiverAddress;
+	String receiverMobile;
+
+    public String getBuyerNIck() {
+        return buyerNIck;
+    }
+
+    public void setBuyerNIck(String buyerNIck) {
+        this.buyerNIck = buyerNIck;
+    }
+
+    public String getReceiverPhone() {
+        return receiverPhone;
+    }
+
+    public void setReceiverPhone(String receiverPhone) {
+        this.receiverPhone = receiverPhone;
+    }
+
+    String receiverPhone;
+	int status;
+	String sellerMemo;
+	double price;
+	String expressNum;
+	String expressId;
+	int sellerFlag;
+
+
 
 	public Date getMtime() {
 		return mtime;
@@ -21,15 +51,8 @@ public class SenderOrder {
 		this.mtime = mtime;
 	}
 
-	String senderName;
-	String senderAdress;
-	String senderTele;
 
-	String revName;
-	String revAdress;
-	String revTele;
 
-	int status;
 
 	public String getExpressNum() {
 		return expressNum;
@@ -39,35 +62,30 @@ public class SenderOrder {
 		this.expressNum = expressNum;
 	}
 
-	public int getTbOrderFlag() {
-		return tbOrderFlag;
+	public int getSellerFlag() {
+		return sellerFlag;
 	}
 
-	public void setTbOrderFlag(int tbOrderFlag) {
-		this.tbOrderFlag = tbOrderFlag;
+	public void setSellerFlag(int sellerFlag) {
+		this.sellerFlag = sellerFlag;
 	}
 
-	public String getRevCity() {
-		return revCity;
+	public String getReceiverCity() {
+		return receiverCity;
 	}
 
-	public void setRevCity(String revCity) {
-		this.revCity = revCity;
+	public void setReceiverCity(String receiverCity) {
+		this.receiverCity = receiverCity;
 	}
 
-	public String getRevArea() {
-		return revArea;
+	public String getRecerverState() {
+		return recerverState;
 	}
 
-	public void setRevArea(String revArea) {
-		this.revArea = revArea;
+	public void setRecerverState(String recerverState) {
+		this.recerverState = recerverState;
 	}
 
-	String expressNum;
-	String expressId;
-	int tbOrderFlag;
-	String revCity;
-	String revArea;
 
 	public int getId() {
 		return id;
@@ -77,20 +95,20 @@ public class SenderOrder {
 		this.id = id;
 	}
 
-	public String getTbOrderId() {
-		return tbOrderId;
+	public String getTid() {
+		return tid;
 	}
 
-	public void setTbOrderId(String tbOrderId) {
-		this.tbOrderId = tbOrderId;
+	public void setTid(String tid) {
+		this.tid = tid;
 	}
 
-	public String getNote() {
-		return note;
+	public String getSellerMemo() {
+		return sellerMemo;
 	}
 
-	public void setNote(String note) {
-		this.note = note;
+	public void setSellerMemo(String sellerMemo) {
+		this.sellerMemo = sellerMemo;
 	}
 
 
@@ -102,12 +120,12 @@ public class SenderOrder {
 		this.price = price;
 	}
 
-	public Date getCtime() {
-		return ctime;
+	public Date getPayTime() {
+		return payTime;
 	}
 
-	public void setCtime(Date ctime) {
-		this.ctime = ctime;
+	public void setPayTime(Date payTime) {
+		this.payTime = payTime;
 	}
 
 	public String getSenderName() {
@@ -134,28 +152,28 @@ public class SenderOrder {
 		this.senderTele = senderTele;
 	}
 
-	public String getRevName() {
-		return revName;
+	public String getReceiverName() {
+		return receiverName;
 	}
 
-	public void setRevName(String revName) {
-		this.revName = revName;
+	public void setReceiverName(String receiverName) {
+		this.receiverName = receiverName;
 	}
 
-	public String getRevAdress() {
-		return revAdress;
+	public String getReceiverAddress() {
+		return receiverAddress;
 	}
 
-	public void setRevAdress(String revAdress) {
-		this.revAdress = revAdress;
+	public void setReceiverAddress(String receiverAddress) {
+		this.receiverAddress = receiverAddress;
 	}
 
-	public String getRevTele() {
-		return revTele;
+	public String getReceiverMobile() {
+		return receiverMobile;
 	}
 
-	public void setRevTele(String revTele) {
-		this.revTele = revTele;
+	public void setReceiverMobile(String receiverMobile) {
+		this.receiverMobile = receiverMobile;
 	}
 
 	public int getStatus() {

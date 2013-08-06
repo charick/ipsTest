@@ -32,8 +32,8 @@
 	</bean>
 	
 
-    <bean id="senderOrderDao"
-          class="TOI.dao.SenderOrderDao"
+    <bean id="traderDao"
+          class="TOI.dao.TraderDao"
           scope="singleton">
         <property name="ikeaTemplate" ref="ikeaTemplate" />
     </bean>

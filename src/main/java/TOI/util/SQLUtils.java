@@ -1,5 +1,8 @@
 package TOI.util;
 
+import TOI.dao.DaoFactory;
+import TOI.dao.TraderDao;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -39,5 +42,9 @@ public class SQLUtils {
         Timestamp str = new Timestamp(date.getTime());
         return str;
     }
+
+
+
+
 
 }
