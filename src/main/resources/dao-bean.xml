@@ -33,7 +33,7 @@
 	
 
     <bean id="traderDao"
-          class="TOI.dao.TraderDao"
+          class="TOI.dao.SendOrderDao"
           scope="singleton">
         <property name="ikeaTemplate" ref="ikeaTemplate" />
     </bean>

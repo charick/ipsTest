@@ -1,7 +1,7 @@
 package TOI.util;
 
 import TOI.dao.DaoFactory;
-import TOI.model.SenderOrder;
+import TOI.model.SendOrder;
 import TOI.model.User;
 import com.taobao.api.domain.Trade;
 
@@ -14,9 +14,9 @@ import java.util.List;
  * Time: 下午12:02
  * To change this template use File | Settings | File Templates.
  */
-public class SenderOrderUtils {
-    public static SenderOrder generateSenderOrder(Trade trade){
-        SenderOrder senderOrder = new SenderOrder();
+public class SendOrderUtils {
+    public static SendOrder generateSenderOrder(Trade trade){
+        SendOrder senderOrder = new SendOrder();
         System.out.println(trade.getTid());
         senderOrder.setTid(trade.getTid().toString());
 senderOrder.setPayTime(trade.getPayTime());
@@ -39,7 +39,7 @@ senderOrder.setPayTime(trade.getPayTime());
         List<Trade> tradeList= taobaoUtils2.tradeFilter("2013-07-30 00:00:00","2013-08-05 00:00:00");
         for(Trade trade:tradeList)
         {
-            DaoFactory.getTraderDao().insert(SenderOrderUtils.generateSenderOrder(trade));
+            DaoFactory.getSendOrderDao().insert(SendOrderUtils.generateSenderOrder(trade));
 
         }
 

@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=gb2312"%>
-<%@ page import="TOI.model.SenderOrder,java.util.*"%>
+<%@ page import="TOI.model.SendOrder,java.util.*"%>
 <table width="100%" border="0">
   <tr>
     <th>id</th>
@@ -8,10 +8,10 @@
     <th>²Ù×÷</th>
   </tr>
   <% 
-  	List<SenderOrder> orders = (List<SenderOrder>)request.getAttribute("orders");
+  	List<SendOrder> orders = (List<SendOrder>)request.getAttribute("orders");
 	for(int i=0;i<orders.size();i++)
 	{
-		SenderOrder order = orders.get(i);
+		SendOrder order = orders.get(i);
 		if(i%2==0)
 		{
 			out.println("<tr align='center'>");

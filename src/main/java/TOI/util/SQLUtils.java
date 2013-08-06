@@ -1,7 +1,7 @@
 package TOI.util;
 
 import TOI.dao.DaoFactory;
-import TOI.dao.TraderDao;
+import TOI.dao.SendOrderDao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

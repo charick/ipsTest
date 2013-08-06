@@ -8,15 +8,14 @@ import java.sql.Statement;
 import java.sql.Timestamp;
 import java.util.List;
 
+import TOI.model.SendOrder;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.simple.ParameterizedRowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 
-import TOI.model.SenderOrder;
-
-public class TraderDao implements ParameterizedRowMapper<SenderOrder> {
+public class SendOrderDao implements ParameterizedRowMapper<SendOrder> {
 	public JdbcTemplate ikeaTemplate;
 
 	public JdbcTemplate getIkeaTemplate() {
@@ -28,8 +27,8 @@ public class TraderDao implements ParameterizedRowMapper<SenderOrder> {
 	}
 
 	@Override
-	public SenderOrder mapRow(ResultSet rs, int i) throws SQLException {
-		SenderOrder bean = new SenderOrder();
+	public SendOrder mapRow(ResultSet rs, int i) throws SQLException {
+		SendOrder bean = new SendOrder();
 		bean.setId(rs.getInt("id"));
 		bean.setTid(rs.getString("tid"));
 		bean.setPayTime(rs.getTimestamp("pay_time"));
@@ -40,16 +39,16 @@ public class TraderDao implements ParameterizedRowMapper<SenderOrder> {
 	}
 
 
-	public List<SenderOrder> getSenderOrderByStatus(int status) {
+	public List<SendOrder> getSenderOrderByStatus(int status) {
 		String sql = "select  * from  user_sendorder where status=? ";
-		List<SenderOrder> mediaUserScopeList = ikeaTemplate.query(sql, new Object[] { status }, this);
+		List<SendOrder> mediaUserScopeList = ikeaTemplate.query(sql, new Object[] { status }, this);
 		if (mediaUserScopeList != null && mediaUserScopeList.size() > 0) {
 			return mediaUserScopeList;
 		}
 		return null;
 	}
 
-	public int insert(final SenderOrder trade) {
+	public int insert(final SendOrder trade) {
 		final String sql = "insert into user_sendorder (tid,pay_time,buyer_nick,receiver_name, receiver_state, receiver_city, receiver_address, receiver_mobile, receiver_phone,seller_flag,trade_memo) values (?,?,?,?,?,?,?,?,?,?,?)";
 		KeyHolder keyHolder = new GeneratedKeyHolder();
 

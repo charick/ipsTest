@@ -18,7 +18,7 @@ public class DaoFactory {
 		beanFactory = new XmlBeanFactory(resource);
 	}
 
-	public static TraderDao getTraderDao() {
-		return (TraderDao) beanFactory.getBean("traderDao");
+	public static SendOrderDao getSendOrderDao() {
+		return (SendOrderDao) beanFactory.getBean("traderDao");
 	}
 }
