@@ -22,13 +22,13 @@ public class MainGarden {
 //        for (String pid:pids){
 //            IkeaStockUtil.StockInfo2SQL(pid);}
 ////////////////////////更新product表内一个产品/////////////////////////
-        Product p = ProductUtils.grabProductFromIKEA("10217155");
+        Product p = ProductUtils.grabProductFromIKEA("10265127");
         ProductUtils.addToSQL(p, 1);
 //////////////////////从SQL获取一个产品/////////////////////////
 //         Product p = ProductUtils.setFromSQL("S69932184");
 ////////////////////////上传至淘宝/////////////////////////
-//        tbUtil .addTaobaoItem(p);
-//        tbUtil.uploadExtraPic(p);
+        tbUtil .addTaobaoItem(p);
+        tbUtil.uploadExtraPic(p);
 ///////////////////////////////////////////////////////////////
 //       TaobaoUtils.saveTBcategory2File();
 //        TaobaoUtils.getPicCategory("宝贝图片");

@@ -45,12 +45,12 @@
     </servlet-mapping>
     
      <servlet>
-        <servlet-name>getSenderOrder</servlet-name>
-        <servlet-class>org.ikea.getTraderServlet</servlet-class>
+        <servlet-name>getSendOrder</servlet-name>
+        <servlet-class>org.ikea.getSendOrderServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>getSenderOrder</servlet-name>
-        <url-pattern>/getSenderOrder</url-pattern>
+        <servlet-name>getSendOrder</servlet-name>
+        <url-pattern>/getSendOrder</url-pattern>
     </servlet-mapping>
     
     

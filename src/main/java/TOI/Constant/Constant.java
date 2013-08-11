@@ -11,10 +11,10 @@ public class Constant {
     public static final String split = "#######";
     public static final String split2 = "@@@@@@@@";
     public static String url = "http://gw.api.taobao.com/router/rest";
-    public static String appkey = "21582138";
-    public static String appSecret = "92e7137be3e1213b25dc2ee1dfaba140";
+    public static String appkey = "21402582";
+    public static String appSecret = "daf18bbfd74783b446f989f72f07de87";
     public static String nick = "charick";
-    public static String sessionKey="6101d00a1d731b7eb4707117b9eb2e4548d438fded62ef942635718";
+    public static String sessionKey="6101413cf000bd7a9602e11c4e1e4b9fd9e121a93c30c4a42635718";
     public static String product_sql="product_charick";
     public static String item_sql="item_charick";
     

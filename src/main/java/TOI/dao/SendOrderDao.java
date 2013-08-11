@@ -34,12 +34,16 @@ public class SendOrderDao implements ParameterizedRowMapper<SendOrder> {
 		bean.setPayTime(rs.getTimestamp("pay_time"));
 		bean.setSellerMemo(rs.getString("trade_memo"));
 		bean.setExpressNum(rs.getString("express_number"));
-		bean.setReceiverMobile(rs.getString("receiver_phone"));
+		bean.setReceiverMobile(rs.getString("receiver_mobile"));
+        bean.setReceiverName(rs.getString("receiver_name"));
+        bean.setReceiverAddress(rs.getString("receiver_address"));
+
+
 		return bean;
 	}
 
 
-	public List<SendOrder> getSenderOrderByStatus(int status) {
+	public List<SendOrder> getSendOrderByStatus(int status) {
 		String sql = "select  * from  user_sendorder where status=? ";
 		List<SendOrder> mediaUserScopeList = ikeaTemplate.query(sql, new Object[] { status }, this);
 		if (mediaUserScopeList != null && mediaUserScopeList.size() > 0) {
@@ -47,9 +51,17 @@ public class SendOrderDao implements ParameterizedRowMapper<SendOrder> {
 		}
 		return null;
 	}
+    public List<SendOrder> getSendOrderByFlag(int status) {
+        String sql = "select  * from  user_sendorder where seller_flag= ? ";
+        List<SendOrder> mediaUserScopeList = ikeaTemplate.query(sql, new Object[] { status }, this);
+        if (mediaUserScopeList != null && mediaUserScopeList.size() > 0) {
+            return mediaUserScopeList;
+        }
+        return null;
+    }
 
 	public int insert(final SendOrder trade) {
-		final String sql = "insert into user_sendorder (tid,pay_time,buyer_nick,receiver_name, receiver_state, receiver_city, receiver_address, receiver_mobile, receiver_phone,seller_flag,trade_memo) values (?,?,?,?,?,?,?,?,?,?,?)";
+		final String sql = "insert into user_sendorder (tid,pay_time,buyer_nick,receiver_name, receiver_state, receiver_city, receiver_address, receiver_mobile, receiver_phone,seller_flag,trade_memo,status) values (?,?,?,?,?,?,?,?,?,?,?,?)";
 		KeyHolder keyHolder = new GeneratedKeyHolder();
 
 		ikeaTemplate.update(new PreparedStatementCreator() {
@@ -66,7 +78,9 @@ public class SendOrderDao implements ParameterizedRowMapper<SendOrder> {
                 ps.setString(9, trade.getReceiverPhone());
                 ps.setInt(10, trade.getSellerFlag());
                 ps.setString(11, trade.getSellerMemo());
-				return ps;
+                ps.setInt(12, 1);
+
+                return ps;
 			}
 		}, keyHolder);
 

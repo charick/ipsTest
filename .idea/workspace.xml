@@ -2,48 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;src/main/java/TOI/dao/DaoFactory.java&#10;&#9;src/main/java/org/ikea/gettraderServlet.java&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/TOI/model/SendOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/TOI/dao/SendOrderDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/TOI/util/SendOrderUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/ikea/getSendOrderServlet.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/TOI/dao/TraderDao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/TOI/model/SenderOrder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/TOI/util/SenderOrderUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/ikea/gettraderServlet.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TOI/dao/DaoFactory.java" afterPath="$PROJECT_DIR$/src/main/java/TOI/dao/DaoFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TOI/util/SQLUtils.java" afterPath="$PROJECT_DIR$/src/main/java/TOI/util/SQLUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/Trader.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/Trader.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dao-bean.xml" afterPath="$PROJECT_DIR$/src/main/resources/dao-bean.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/ikea/AddItem2TBServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/ikea/UpdateSendOrderServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/ikea/UpdateTokenServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/ikea/getSendOrderServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/Trader.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TOI/Constant/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/TOI/Constant/Constant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MainGarden.java" afterPath="$PROJECT_DIR$/src/main/java/MainGarden.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TOI/dao/SendOrderDao.java" afterPath="$PROJECT_DIR$/src/main/java/TOI/dao/SendOrderDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TOI/util/SendOrderUtils.java" afterPath="$PROJECT_DIR$/src/main/java/TOI/util/SendOrderUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/top.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/top.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IPS.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/pom.xml" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375106898954" ignored="false" />
-    <file path="/Dummy.txt" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375755956805" ignored="false" />
+    <file path="/Dummy.txt" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376139397267" ignored="false" />
     <file path="E:/DEV/GIT/taobaoOverIkea/src/main/java/MainGarden.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375620589543" ignored="false" />
-    <file path="/fragment.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375670625181" ignored="false" />
-    <file path="/web.xml" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375111093037" ignored="false" />
-    <file path="/TaobaoUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375145853614" ignored="false" />
+    <file path="/fragment.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376228862292" ignored="false" />
+    <file path="/web.xml" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375974543273" ignored="false" />
+    <file path="/TaobaoUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376199564432" ignored="false" />
     <file path="/TaobaoCallBackServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375112885468" ignored="false" />
     <file path="/MainGarden.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375620586899" ignored="false" />
-    <file path="/VelocityUtil.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375113324986" ignored="false" />
+    <file path="/VelocityUtil.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376199317082" ignored="false" />
     <file path="/AddItem2TBServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375145904099" ignored="false" />
-    <file path="/OrderPrinter.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375147954179" ignored="false" />
+    <file path="/OrderPrinter.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375942539586" ignored="false" />
     <file path="/PicUploader.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375150010231" ignored="false" />
     <file path="E:/DEV/GIT/taobaoOverIkea/src/main/java/TOI/util/Fahuo.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375516908679" ignored="false" />
     <file path="E:/DEV/GIT/taobaoOverIkea/src/main/java/TOI/util/InvoicePrinter.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375519164121" ignored="false" />
     <file path="E:/DEV/GIT/taobaoOverIkea/src/main/java/TOI/Constant/Constant.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375516992678" ignored="false" />
-    <file path="/dao-bean.xml" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375754987996" ignored="false" />
-    <file path="/DaoFactory.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375755943994" ignored="false" />
-    <file path="/getSendOrderServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375663951838" ignored="false" />
+    <file path="/dao-bean.xml" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376151147039" ignored="false" />
+    <file path="/DaoFactory.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376151161286" ignored="false" />
+    <file path="/getSendOrderServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375773473145" ignored="false" />
     <file path="/TraderDao.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375674960894" ignored="false" />
     <file path="/TaobaoUtils2.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375682339722" ignored="false" />
     <file path="/SQLUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375755216055" ignored="false" />
     <file path="/SenderOrder.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375675886543" ignored="false" />
     <file path="/SenderOrderUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375680801772" ignored="false" />
-    <file path="/SendOrderDao.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375754792725" ignored="false" />
+    <file path="/SendOrderDao.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376007105874" ignored="false" />
     <file path="/SendOrderUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375755258801" ignored="false" />
+    <file path="/sendorder.jsp" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376036222673" ignored="false" />
+    <file path="/top.jsp" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376136403894" ignored="false" />
+    <file path="/index.jsp" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375775851427" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/MainGarden.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376138492416" ignored="false" />
+    <file path="/1234.html" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376019398103" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/TaobaoUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376199595584" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/User.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375933549881" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/Fahuo.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376028530241" ignored="false" />
+    <file path="/Fahuo.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375945879657" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/InvoicePrinter.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375947001292" ignored="false" />
+    <file path="/InvoicePrinter.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375934210275" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/FahuoPrinter.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375942764782" ignored="false" />
+    <file path="/FahuoPrinter.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375942424313" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/Constant/Constant.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376153526323" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/OrderPrinter.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375942556390" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/pom.xml" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376138689688" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/model/User.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376195147469" ignored="false" />
+    <file path="/User.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376195144014" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/SendOrderUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375945935017" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/Servlet/TaobaoCallBackServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375944949357" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/web/JettyServer.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375945959960" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/VelocityUtil.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376199317082" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/resources/dao-bean.xml" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376151150553" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/dao/DaoFactory.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376151162392" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/dao/ItemDao.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376198350318" ignored="false" />
+    <file path="/ItemDao.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376198347125" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/dao/SendOrderDao.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376007122592" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/model/Item.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376152302148" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/ItemUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376152628580" ignored="false" />
+    <file path="/ItemUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376152628580" ignored="false" />
+    <file path="/Item.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376152293568" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/ProductUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376198143637" ignored="false" />
+    <file path="/ProductUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375968712582" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/Servlet/getSendOrderServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375974114414" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/Servlet/AddItem2TBServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375974329479" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/webapp/WEB-INF/web.xml" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376137850523" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/webapp/jsp/index.jsp" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375977004295" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/Servlet/UpdateSendOrderServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375976515154" ignored="false" />
+    <file path="/UpdateSendOrderServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1375976503731" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/webapp/jsp/sendorder.jsp" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376036726390" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/webapp/jsp/top.jsp" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376137136620" ignored="false" />
+    <file path="$USER_HOME$/Desktop/1234.html" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376019398103" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/Servlet/FahuoServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376039805563" ignored="false" />
+    <file path="/FahuoServlet.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376039465872" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/webapp/jsp/fahuo.jsp" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376039846491" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/.gitignore" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376120172741" ignored="false" />
+    <file path="/.gitignore" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376120164982" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/.idea/workspace.xml" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376137353371" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/webapp/WEB-INF/applicationContext.xml" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376136279351" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/filter/filter-mac.properties" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376152765099" ignored="false" />
+    <file path="/filter-mac.properties" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376152752870" ignored="false" />
+    <file path="/Constant.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376139167189" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/resources/config.properties" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376153162358" ignored="false" />
+    <file path="/config.properties" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376153154391" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/dao/ProductDao.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376198016000" ignored="false" />
+    <file path="/ProductDao.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376195986709" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/model/Product.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376198662755" ignored="false" />
+    <file path="/Product.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376198149532" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/util/IkeaUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376154400836" ignored="false" />
+    <file path="/IkeaUtils.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376154392817" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/model/UserProduct.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376202129390" ignored="false" />
+    <file path="/UserProduct.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376202129390" ignored="false" />
+    <file path="$PROJECT_DIR$/../taobaoOverIkea/src/main/java/TOI/dao/UserProductDao.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376202106759" ignored="false" />
+    <file path="/UserProductDao.java" changelist="fc83f764-c6bd-4aba-b2d8-64f6032cfe21" time="1376202090375" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +123,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/TOI/dao/SendOrderDao.java" line="57" class="TOI.dao.SendOrderDao" package="TOI.dao">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -95,6 +176,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -104,48 +186,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dao-bean.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/dao-bean.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constant.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TOI/Constant/Constant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DaoFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TOI/dao/DaoFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="34" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TOI/util/SQLUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SendOrder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TOI/model/SendOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="17" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TradeItem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TOI/model/TradeItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dao-bean.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/dao-bean.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="104" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,39 +222,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendOrderDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TOI/dao/SendOrderDao.java">
+      <file leaf-file-name="UserInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TOI/model/UserInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="5" selection-start="2881" selection-end="2881" vertical-scroll-proportion="0.0">
+            <state line="2" column="13" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getSendOrderServlet.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/ikea/getSendOrderServlet.java">
+      <file leaf-file-name="sendorder.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/sendorder.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="8" selection-start="945" selection-end="945" vertical-scroll-proportion="0.975">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendOrderUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TOI/util/SendOrderUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="68" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0">
+            <state line="40" column="60" selection-start="1137" selection-end="1137" vertical-scroll-proportion="-25.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fahuo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TOI/util/Fahuo.java">
+      <file leaf-file-name="top.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.884434">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainGarden.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MainGarden.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="32" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaobaoUtils2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TOI/util/TaobaoUtils2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="27" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TOI/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="169" selection-end="718" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -216,22 +294,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/TOI/dao/SenderOrderDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ikea/gettraderServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TOI/util/TaobaoUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TOI/dao/TraderDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TOI/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TOI/util/TaobaoUtils2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/ikea/getTraderServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TOI/dao/SendOrderDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/dao-bean.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/TOI/util/SQLUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TOI/util/SenderOrderUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TOI/util/SendOrderUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TOI/model/SenderOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/TOI/model/SendOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/TOI/dao/DaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/css.css" />
+        <option value="$PROJECT_DIR$/src/main/java/TOI/Constant/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/ikea/getSendOrderServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/TOI/dao/SendOrderDao.java" />
+        <option value="$USER_HOME$/Desktop/user_sendorder.txt" />
+        <option value="$USER_HOME$/Desktop/user_sendorder.html" />
+        <option value="$USER_HOME$/Desktop/1234.html" />
+        <option value="$PROJECT_DIR$/src/main/java/TOI/util/SendOrderUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/sendorder.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/MainGarden.java" />
       </list>
     </option>
   </component>
@@ -298,7 +376,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="790" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -343,7 +421,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
+      <flattenPackages ProjectPane="true" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -354,34 +432,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IPS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IPS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IPS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IPS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wyf.zrk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -415,10 +465,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,7 +534,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TOI" />
+              <option name="myItemId" value="zrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipsTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ipsTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -518,114 +586,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TOI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ipsTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ipsTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TOI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ipsTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ipsTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TOI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Constant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ipsTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ipsTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ikea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IPS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IPS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IPS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IPS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wyf.zrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.applicationServers" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="options.lastSelected" value="editor" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/user_sendorder.html" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -650,7 +656,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
+  <component name="RunManager" selected="Tomcat Server.IPS">
     <configuration default="false" name="MainGarden" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MainGarden" />
       <option name="VM_PARAMETERS" value="" />
@@ -746,6 +752,20 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
       <deployment />
       <server-settings />
@@ -756,17 +776,20 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
+    <configuration default="false" name="IPS" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8014/IPS/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ipsTest:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/IPS" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_ipsTest" />
+        <option name="HTTP_PORT" value="8014" />
+        <option name="JNDI_PORT" value="1098" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -816,14 +839,14 @@
       </method>
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MainGarden" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SendOrderUtils" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MainGarden" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SendOrderUtils" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.IPS" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.SendOrderUtils" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainGarden" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MainGarden" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SendOrderUtils" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -857,27 +880,47 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="790" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="811" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32686567" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686567" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20803443" sideWeight="0.33893558" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1743185" sideWeight="0.70149255" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20803443" sideWeight="0.6731343" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25522387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1743185" sideWeight="0.70149255" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20803443" sideWeight="0.359944" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30112046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="590" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29850745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -947,96 +990,71 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;&#9;src/main/java/TOI/dao/DaoFactory.java&#10;&#9;src/main/java/org/ikea/gettraderServlet.java&#10;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainGarden.java">
+    <entry file="file://$USER_HOME$/Desktop/user_sendorder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="761" selection-end="761" vertical-scroll-proportion="-8.75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/dao/SendOrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="32" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="49" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
+        <state line="57" column="27" selection-start="1825" selection-end="1825" vertical-scroll-proportion="-18.333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/util/TaobaoUtils.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="403" column="0" selection-start="14769" selection-end="14769" vertical-scroll-proportion="0.0">
+        <state line="407" column="2" selection-start="12785" selection-end="12785" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="14" selection-start="2340" selection-end="2340" vertical-scroll-proportion="-8.75">
+          <folding>
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/TaobaoCallBackServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="22" selection-start="829" selection-end="843" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TOI/util/TaobaoUtils2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="0" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/6.0/javaee-api-6.0.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.35433072" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dao-bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.0.RELEASE/spring-jdbc-3.0.0.RELEASE-sources.jar!/org/springframework/jdbc/core/PreparedStatementCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="22" selection-start="2214" selection-end="2214" vertical-scroll-proportion="0.7819063" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/Constant/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/util/SQLUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/util/SendOrderUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="68" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/util/Fahuo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/dao/SendOrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="5" selection-start="2881" selection-end="2881" vertical-scroll-proportion="0.0">
+        <state line="27" column="27" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1048,21 +1066,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/dao/DaoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="9" column="0" selection-start="169" selection-end="718" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/ikea/getSendOrderServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/model/TradeItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="945" selection-end="945" vertical-scroll-proportion="0.975">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="2" column="13" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dao-bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="104" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TOI/model/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainGarden.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="32" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/sendorder.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="60" selection-start="1137" selection-end="1137" vertical-scroll-proportion="-25.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.884434">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,7 +1141,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Webapp (ipsTest)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1120,11 +1176,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Webapp|ipsTest</last-edited>
+          <last-edited>ipsTest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
